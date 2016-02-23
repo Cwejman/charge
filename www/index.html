@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Molekular</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="res/ionicons.css">
+  <script src="js/lib/matter.js" charset="utf-8"></script>
+  <script data-main="js/main" src="js/lib/require.js"></script>
+  <style>
+    body {
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #362f2f !important;
+      color: rgb(237, 237, 237);
+    }
+    #canvas {
+      height: calc(100vh - 50px);
+      width: 100%;
+    }
+    canvas {
+      height: 100%;
+      width: 100%;
+    }
+    #controll {
+      height: 40px;
+      width: 100vw;
+      display: flex;
+    }
+    #text {
+      width: calc(100vw - 140px);
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: avenir next;
+      letter-spacing: 1px;
+      font-size: 14px
+    }
+    #left, #right {
+      width: 30px;
+      height: 30px;
+      background-color: #362f2f;
+      font-size: 24px;
+      padding: 10px 20px;
+      line-height: 50%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="canvas">
+
+  </div>
+
+  <div id="controll">
+
+    <i id="left" class="ion-chevron-left">
+
+    </i>
+
+    <div id="text">
+    </div>
+
+    <i id="right" class="ion-chevron-right">
+
+    </i>
+
+  </div>
+
+</body>
+</html>
