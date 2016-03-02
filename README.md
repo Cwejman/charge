@@ -19,3 +19,6 @@ In this simulation the walls and charges all repell each other but there is one 
 In this simulation the walls and charges all repell each other but there four charged pads on each wall.. These pads all repell the charges to the next pad in line. Which in this case results in a charges running around in a circle.
 
 <img src="/readme/carousel.gif" width=210 height=372 />
+
+### TO DO
+* Add more scenarios
